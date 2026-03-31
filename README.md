@@ -17,6 +17,12 @@ This analysis demonstrates how SQL can be used to:
 - Identify declines in flight activity
 - Measure day-over-day changes in volume
 
+## Example Output
+
+| airport_code | recordDate | today_flights | yesterday_flights | flight_change |
+|-------------|------------|---------------|-------------------|---------------|
+| DFW         | 2025-06-04 | 140           | 125               | +15           |
+
 ## Tools
 - SQLite
 - SQL
